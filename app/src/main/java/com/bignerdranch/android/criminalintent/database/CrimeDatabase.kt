@@ -10,5 +10,5 @@ import com.bignerdranch.android.criminalintent.Crime
 
 abstract class CrimeDatabase : RoomDatabase() {
 
-    abstract fun crimeDao: CrimeDao
+    abstract fun crimeDao(): CrimeDao
 }
